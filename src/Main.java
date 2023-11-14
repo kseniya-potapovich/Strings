@@ -79,15 +79,6 @@ public class Main {
             System.out.println(words3[i]);
         }*/
         System.out.println("Пункта 4 не будет");
-        for (int i = 0; i < words1.length; i++) {
-            for (int j = 0; j < words1[i].length(); j++) {
-                if (words1[i].charAt(j) != words1[i].charAt(j+1)){
-                    System.out.println(words1[i]);
-                }else {
-                    System.out.println("There aren't words");
-                }
-            }
-        }
 
         System.out.println("-------------------");
         String text = scanner.nextLine();
